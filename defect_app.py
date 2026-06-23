@@ -52,9 +52,9 @@ prompt = f'''Act as a structural and civil engineer and provide the necessary de
 
 import os
 
-key = st.secrets("GOOGLE_API_KEY")
+ai_key = st.secrets("GOOGLE_API_KEY")
 
-genai.configure(api_key=key)
+genai.configure(api_key=ai_key)
 
 def generate_results(prompt,img):
     model = genai.GenerativeModel('gemini-2.5-flash')
