@@ -53,7 +53,7 @@ prompt = f'''Act as a structural and civil engineer and provide the necessary de
 import os
 
 
-ai_key = st.secrets("GOOGLE_API_KEY")
+ai_key = st.secrets.get("GOOGLE_API_KEY")
 
 genai.configure(api_key=ai_key)
 
