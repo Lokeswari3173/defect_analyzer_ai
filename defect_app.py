@@ -10,7 +10,17 @@ st.set_page_config(page_title='Structural Defect Analysis Using AI',page_icon = 
 st.title('AI Assistant for :green[Structural Defect Analysis]🤖🧠🇦🇮👾')
 st.header(':blue[Prototype for automated structural defect analysis]🛠️')
 st.subheader('''Develop a web based app using Streamlit that allows users to upload image of a building structure and to analyze the effect using Generative AI model.''')
+st.sidebar.markdown("### About Me")
+st.sidebar.write("Mangasamudram Lokeswari")
 
+st.sidebar.markdown("### Role")
+st.sidebar.write("Data Science & Gen AI")
+
+st.sidebar.markdown("### GitHub")
+st.sidebar.write("github.com/Lokeswari3173")
+st.sidebar.write("👩‍💻 Mangasamudram Lokeswari")
+st.sidebar.write("📊 Data Science & Gen AI")
+st.sidebar.write("🔗 github.com/Lokeswari3173")
 with st.expander('➤About the application'):
     st.markdown(f'''This is used to detect the structural defect in building images like cracks,misallignments using AI system
                 ***Defect Detection***
